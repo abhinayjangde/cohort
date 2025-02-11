@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background: #414141;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo{
+    width: 50px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
