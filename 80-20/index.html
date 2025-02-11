@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>80/20</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🚀 Please Stay on This Page!</h1>
+    <p>Switching tabs will show an alert.</p>
+    <script>
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                document.title = "⚠️ Don't leave!";
+                alert("⚠️ Don't leave the page!");
+            } else {
+                document.title = "Stay on This Page!";
+            }
+        });
+    </script>
+</body>
+
+</html>
