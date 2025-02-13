@@ -1,15 +1,14 @@
 
-import { useEffect, useState } from "react";
-import Counter from "../components/Counter";
+import TodoApp from "../components/TodoApp";
 
-
-export default function App() {
+export default function App(){
   
+
   return (
-
-    <div>
-      <Counter/>
-    </div>
-
+    <>
+    
+    {/* <TodoApp/> */}
+    
+    </>
   )
 }
