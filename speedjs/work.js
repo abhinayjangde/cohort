@@ -10,3 +10,8 @@
 // console.log("bye")
 
 
+function hello(name){
+    console.log(`Hello, ${name}`)
+}
+
+setTimeout(hello,3000)
