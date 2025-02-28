@@ -11,4 +11,10 @@ modern workflows like Turbo Repo, TypeScript, and GitHub CI/CD.
 
 Use coupon code ABHINAY38237 for additional 10% OFF 🚀 [Entrol Now](https://courses.chaicode.com/learn/fast-checkout/214298?priceId=0&code=ABHINAY38237&is_affiliate=true&tc=ABHINAY38237)
 
+
+## Projects
+
+
+10. [Cohort Bank](/projects/cohort-bank/) - It's very simple bank.
+
 > Pull requests are always welcome 😘
