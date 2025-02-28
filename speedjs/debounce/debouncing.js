@@ -1,9 +1,9 @@
 // debouncing
 function debounce(fn, delay){
     let id
-    return function(){
+    return function(...args){
         clearTimeout(id)
-        id = setTimeout(function(...args){
+        id = setTimeout(function(){
             fn.apply(this,args)
         }, delay)
     }
