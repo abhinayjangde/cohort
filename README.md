@@ -22,7 +22,7 @@ Use coupon code ABHINAY38237 for additional 10% OFF 🚀 [Entrol Now](https://co
 ## Projects
 
 1. [Cohort Bank](/projects/cohort-bank/) - It's very simple bank.
-
+2. [Kanban Board](/projects/kanban-board/)
 ## Assignments
 
 [assignments](/assignments/)
