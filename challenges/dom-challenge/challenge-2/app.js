@@ -1,3 +1,1 @@
-/**
- * Write your challenge solution here
- */
+const mainHeading = document.querySelector("#mainHeading")
