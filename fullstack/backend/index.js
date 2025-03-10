@@ -1,11 +1,15 @@
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
+import db from "./utils/db.js"
 
 dotenv.config() // loading env variables
 
 const port = process.env.PORT || 4000 // fallback for PORT
 const app = express()
+
+// db
+db()
 
 app.use(cors()) // cors error
 app.use(express.json()) // parsing jsong
