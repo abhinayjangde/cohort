@@ -1,15 +1,18 @@
-class A{
-    
-    display(){
-        console.log(`function`)
+class Person{
+    constructor(name, age){
+        if(!new.target){
+            return `Name : ${name}`
+        }
+        this.name = name
+        this.age = age
+    }
+    static age = 2;
+
+    static getAge(){
+        return this.age
     }
 }
-class B extends A{
-    
-}
 
-const p1 = new A()
-p1.display()
+const p = new Person("Abhi",23)
+console.log(Person.getAge())
 
-const p2 = new B()
-p2.display()

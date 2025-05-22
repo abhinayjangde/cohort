@@ -1,4 +1,9 @@
+Function.prototype.describe = function(){
+    console.log(`Function name is ${this.name}`)
+}
 
+function greet(name){
+    return `hello , ${name}`
+}
 
-console.log(Math.floor(((Math.random()) * 5) + 1))
-
+greet("Abhi").describe()
