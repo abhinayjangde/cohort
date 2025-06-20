@@ -36,7 +36,7 @@ export const register = async (req, res) => {
         message: "Error while creating user in database",
       });
     }
-
+    
     const token = crypto.randomBytes(32).toString("hex");
 
     user.verificationToken = token;
