@@ -12,13 +12,13 @@ export default function App(){
   
   return (
     <>
-    {/* <CountryTask/> */}
     <Header title="React Interview" bg="red" />
+    <CountryTask/>
     {/* <StateVariables name="Abhi" /> */}
     {/* <ImageSlider/> */}
     {/* <Signup/> */}
     {/* <TodoApp/> */}
-    <Accordion/>
+    {/* <Accordion/> */}
     </>
   )
 }
